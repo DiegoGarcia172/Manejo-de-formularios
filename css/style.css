@@ -17,15 +17,19 @@ body{
     border-radius: 2vh;
 }
 .lblname{
+    margin-top: 10vh;
     position: absolute;
 }
 .txtnombre{
+    margin-top: 12vh;
     position: absolute;
 }
 .lblpass{
+    margin-top: 15vh;
     position: absolute;
 }
 .txtpass{
+    margin-top: 20vh;
     position: absolute;
 }
 .btnguardar{
