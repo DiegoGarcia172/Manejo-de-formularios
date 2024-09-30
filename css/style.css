@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(201, 201, 201);
+}
+.container{
+    /*lo absoluto es lo incondicionado, independiente, desligado, lo que es en sí, lo que no está mediatizado por nada, 
+    lo inmutable. Lo relativo caracteriza al fenómeno en sus relaciones y nexos con otros fenómenos, en dependencia de otros fenómenos.*/
+    position: absolute;
+    /*color de pagina*/
+    background-color: white;
+    /*ancho en tamano relativo*/
+    width: 60vh;
+    /*largo*/
+    height: 80vh;
+
+    margin-left: 70vh;
+
+    border-radius: 2vh;
+}
+.lblname{
+    position: absolute;
+}
+.txtnombre{
+    position: absolute;
+}
+.lblpass{
+    position: absolute;
+}
+.txtpass{
+    position: absolute;
+}
+.btnguardar{
+    /*tamano de letra*/
+    font-size: 5vh;
+
+    position: absolute;
+    /*margen de arriba*/
+    margin-top: 65vh;
+    /*margen de izquierda*/
+    margin-left: 5vh;
+    /*lo curvo que tiene en las orillass*/
+    border-radius: 1vh;
+    /*aqui le quito el estilo que tienen por defaul los botones*/
+    border-style: none;
+    /*le pongo un color de fondo*/
+    background-color: black;
+    /*color de letras*/
+    color: white;
+    /*ajusto los tamanos*/
+    width: 50vh;
+    height: 12vh;
+}
+/*para cuando pase el mouse encima del boton cambie a estos parametros que tengo aqui*/
+.btnguardar:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-style: solid;
+}

@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesion</title>
+    <!--Ejemplo de estilo -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="container">
     <form action="mostrar.php" method="post">
-        <label for="">Nombre:</label>
-        <input type="text" name="nombre">
-
-        <label for="">Password:</label>
-        <input type="text" name="password" >
-        <button type="submit">Guardar informacion</button>
+        <div class="nombre">
+            <label class="lblname">Nombre:</label>
+            <input type="text" name="nombre" class="txtnombre">
+        </div>
+        <div class="pass">
+            <label for="" class="lblpass">Password:</label>
+            <input type="text" name="password" class="txtpass">
+        </div>
+        <button type="submit" class="btnguardar">Guardar informacion</button>
     </form>
-
+    </div>
      <!-- ejemplo de formulario por GET 
       <form action="mostrar.php" method="get">
         <label for="">Nombre:</label>
